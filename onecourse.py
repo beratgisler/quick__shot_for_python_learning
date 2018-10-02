@@ -1,12 +1,12 @@
-"""
+
 print("Berat",23,"Gökberk","İşler")
 print("Berat\nGökberk\nİşler")
 print("19","09","1993",sep="/") #bu satır yorum satırıdır.
 print("{} + {} = {}".format(2,3,2+3)) 
 
-"""
 
-"""
+
+
 a = 3  #int
 b = 3.14 #float
 c = "Python" #string
@@ -18,9 +18,9 @@ g = True # False iki değer alır boolean
 print(type(a)) # a değişkeni hangi veri tipine sahiptir.
 
 print(a,b,c)
-"""
 
-"""
+
+
 print(3+4) #matematiksel operatörler
 print(10-3)
 print(10*3)
@@ -50,9 +50,7 @@ print("*" * 1)
 print("*" * 2)
 print("*" * 3)
 
-"""
 
-"""
 a = "python"
 b = [1,2,3,4,5,6,7]
 
@@ -83,9 +81,6 @@ print(a["Elma"]) #elmaya karşılık gelen değer.
 print(a["Kiraz"]) #kiraza karşılık gelen değer.
 
 
-"""
-
-"""
 yas = input("Yaşınızı Giriniz :") #input alma 
 print("Yaşınız",yas)
 
@@ -94,9 +89,6 @@ b = int(input("b:"))
 c = int(input("c:"))
 print("Toplam",a+b+c) # burada çıktı string olarak toplanır , dönüştürülme yapılması gerekir.
 
-"""
-
-"""
 yas = int(input("Lütfen Yaşınızı Giriniz : ")) #if koşullu durumu
 if yas < 18:
     print("Mekana Giremezsiniz....")
@@ -124,9 +116,7 @@ else:
    
    if (not (3==4)): # true yu false false u true yapar.
     print("Evet") 
-"""
 
-"""
 #while döngüsü
 
 i = 0
@@ -164,9 +154,7 @@ for karakter in b:
 for sayi in range(0,100): # 0 dan 100 e kadar giden bir sayı dizisi oluştu. üçüncü parametre olarak atlama değeri verilebilir.
     print(sayi)
     
-"""
 
-"""
 #fonksiyonlar
 
 def selamla():
@@ -203,9 +191,7 @@ print(a.endswith("b")) # a stringi b harfi ile bitiyor mu ? False
 
 a = a.replace("a","o")  #a stringi içerisindeki a harflerini o harfi ile değiştir.
 print(a)
-"""
 
-"""
 #dosya işlemleri
 
 file = open("Dosya.txt","a") #dosya kipleri nedir a,w ,r kipi okuma kipi a kipi ekleme w kipi yazma kipi ??
@@ -226,7 +212,7 @@ file = open("Dosya.txt","r")  # for düngüsü ile okuma işlemi.
 for satir in file:
     print(satir)
 file.close()
-"""
+
 
 #intro to python oop
 
