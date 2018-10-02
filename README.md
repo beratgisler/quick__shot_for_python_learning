@@ -1,0 +1,2 @@
+# quick__shot_for_python_learning
+accelerated python
